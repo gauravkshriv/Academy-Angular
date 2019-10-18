@@ -1,0 +1,69 @@
+<div class="dashbaord_page">
+  <div class="breadcrumbs">
+      <div class="col-sm-12">
+          <div class="page-header float-left">
+              <div class="page-title">
+                  <h1>Register for RME Test</h1>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="container">
+      <img class="img-responsive" src="assets/images/strip.png"/>
+    </div>
+  </div>
+
+  <div class="backimg">
+    <div class="section_start">
+        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <div class="form_section form-signin">
+    <form name="form" (ngSubmit)="f.form.valid && ValidateRegistration()" #f="ngForm" novalidate>
+        <div class="form-group">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+        <input type="text" class="form-control" name="uname" #uname="ngModel" [(ngModel)]="model.uname" [ngClass]="{ 'is-invalid': f.submitted && uname.invalid }" placeholder="UserName" required> 
+        <div *ngIf="f.submitted && uname.invalid" class="invalid-feedback">
+            <div *ngIf="uname.errors.required">First Name is required</div>
+        </div> 
+    </div>
+  
+        <div class="form-group">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <input type="email" class="form-control" name="email" [(ngModel)]="email" placeholder="Email ID" required>
+        </div>
+        
+        <div class="form-group">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+        <input type="text" class="form-control" name="fname" [(ngModel)]="fname" placeholder="FirstName" required>
+        </div>
+        
+        <div class="form-group">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+        <input type="text" class="form-control" name="lname" [(ngModel)]="lname" placeholder="LastName" required>
+        </div>
+        
+        <div class="form-group">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+        <input type="tel"  class="form-control" name="tel" [(ngModel)]="mobileno" placeholder="Phone Number">
+        </div>
+  
+       <!-- {{ countryList | json }} --><!-- pipe(filter) to  object conversion into json -->
+        <button class="btn btn-primary" type="submit" (click)="ValidateRegistration()"> Register </button>
+    </form>                           
+  
+  </div>
+  </div>
+  <div class="col-lg-2 col-md-2 col-sm-2"></div>
+  </div>
+  </div>
+  
+
+</div>
+
+
+
+
+
+

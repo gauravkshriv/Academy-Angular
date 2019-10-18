@@ -1,0 +1,180 @@
+<div class="dashbaord_page">
+<div class="row">
+  <div class="container-fluid">
+      <div class="col-lg-12 ">
+    <img class="img-responsive" src="assets/images/ee.png"/>
+  </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <h3 class="text-center p-4">Academy Section</h3>
+  <div class="row">
+
+  <div class="col-md-4 col-sm-12 ">
+        <div class="card card-cascade narrower">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="assets/images/basic-home.jpg" alt="Card image cap">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+         <!-- Card content -->
+          <div class="card-body card-body-cascade">
+              <h5 class="card-title">BASIC BLOCK CHAIN</h5>
+            <!-- Label -->
+            <p class="card-text">Understanding RME blockchain platform by undertaking a free
+              online basic certification course from Academy by RME</p>
+            <!-- Title -->
+           <div *ngIf="show; else notShow">
+            <a routerLink="/basic" class="btn btn-primary">View More</a>
+          </div>
+          <ng-template #notShow>
+            <a class="btn btn-primary" (click)="notlogin()">View More</a>
+          </ng-template>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-md-4 col-sm-12 ">
+      <div class="card card-cascade narrower">
+        <!-- Card image -->
+        <div class="view view-cascade overlay">
+          <img class="card-img-top" src="assets/images/industry-home.jpg" alt="Card image cap">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+       <!-- Card content -->
+        <div class="card-body card-body-cascade">
+            <h5 class="card-title">INDUSTRY DOMAIN</h5>
+          <!-- Label -->
+          <p class="card-text">We are giving a flexibility available to draft and manage the courses by certified trainers.</p>
+          <!-- Title -->
+         
+          <a class="btn btn-primary">View More</a>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+
+    <div class="col-md-4 col-sm-12 ">
+        <div class="card card-cascade narrower">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" src="assets/images/digital-home.jpg" alt="Card image cap">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+         <!-- Card content -->
+          <div class="card-body card-body-cascade">
+              <h5 class="card-title">DIGITAL MARKETING</h5>
+            <!-- Label -->
+            <p class="card-text">Proper resources and knowledge available of Digital marketing which will boost your sales operation
+            </p>
+            <!-- Title -->
+           
+            <a class="btn btn-primary">View More</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<!--  -->
+
+
+<!-- events and annoucments -->
+<div class="event_announcement">
+<div class="container-fluid">
+    <h3 class="text-center p-4">Events And Announcements</h3>
+    <div class="row">
+        <div class="col-md-6  col-lg-3 col-sm-12">
+            <div class="card card-cascade narrower">
+              <!-- Card image -->
+              <img src="assets/images/achieve.png">
+             <!-- Card content -->
+              <div class="card-body card-body-cascade">
+                  <h5 class="card-title">Achievement</h5>
+                <!-- Label -->
+                <p class="card-text">Get certified on RME blockchain platform by participating in academy programme
+                </p>
+                <!-- Title -->
+               </div>
+            </div>
+          </div>
+          <div class="col-md-6  col-lg-3 col-sm-12">
+              <div class="card card-cascade narrower">
+                <!-- Card image -->
+                <img src="assets/images/course.png">
+               <!-- Card content -->
+                <div class="card-body card-body-cascade">
+                    <h5 class="card-title">Our Courses</h5>
+                  <!-- Label -->
+                  <p class="card-text">Our courses are biggest combination of industry domain & digital marketing which will revolutionize the operations & maximize the business revenue
+                  </p>
+                  <!-- Title -->
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-6  col-lg-3 col-sm-12">
+                <div class="card card-cascade narrower">
+                  <!-- Card image -->
+                  <img src="assets/images/support.png">
+                 <!-- Card content -->
+                  <div class="card-body card-body-cascade">
+                      <h5 class="card-title">Support</h5>
+                    <!-- Label -->
+                    <p class="card-text">You can reach our trainers any time you need assistance
+                    </p>
+                    <!-- Title -->
+                   </div>
+                </div>
+              </div>
+              <div class="col-md-6  col-lg-3 col-sm-12">
+                  <div class="card card-cascade narrower">
+                    <!-- Card image -->
+                    <img src="assets/images/profile.png">
+                   <!-- Card content -->
+                    <div class="card-body card-body-cascade">
+                        <h5 class="card-title">Profile</h5>
+                      <!-- Label -->
+                      <p class="card-text">By completing the courses user will receive endorsement for the skills which will elaborate user industry profile
+                      </p>
+                      <!-- Title -->
+                     </div>
+                  </div>
+                </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="modal" *ngIf="show; else notShow2"></div>
+
+<ng-template #notShow2>
+    <div class="modal fade" data-toggle="modal" id="#modallogout" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog">
+    <div class="modal-content background_sec">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <h3>   Never miss a story from RME.</h3>
+          <p>  Create an account or login to follow, Comment  your favorite topics, and check Property Listing.</p>
+        <a href="http://portal.rmehub.in/?referral=community"> <button class="btn btn-primary">LOGIN</button></a>
+        </div>
+        
+        <!-- Modal footer -->
+      </div>
+  
+</div>
+</div>
+</ng-template>

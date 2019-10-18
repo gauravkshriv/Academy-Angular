@@ -1,0 +1,10 @@
+.pills-primary .nav-link.active, .pills-primary .show > .nav-link, .tabs-primary
+{
+    background-color:#2a3f54 !important;
+}
+
+.btn-primary.dropdown-toggle{
+    background-color:#2a3f54 !important;
+}
+
+

@@ -1,0 +1,53 @@
+.header-left .dropdown .dropdown-toggle:focus
+{background-color:#b579d2 !important;}
+
+.dropdown-menu.dropdown-primary.show {
+    margin: 58px 0px;
+}
+
+.fa.fa-user-circle {
+    font-size: 22px;
+    padding-right: 5px;
+}
+.dropdown-menu{min-width:13rem;}
+
+.right-panel header.header
+{
+    padding:5px 0px 5px 20px !important;
+}
+.dropdown-menu.portaldrop.show {
+    margin-top: 61px;
+    margin-left: -40px;
+}
+.dropdown_menu .fa.fa-th {
+    color: #fff;
+    margin: 13px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.dropdown_menu a {
+    color: #000;
+    font-size: 14px;
+    display: grid;
+}
+
+.dropdown_menu {
+    float: left;
+}
+
+#homebar {
+    margin: 0px 0px 0px 0px;
+}
+#dropdownMenu1 {
+    color: #fff;
+}
+
+
+.fa-home,.fa-bars {
+    margin-top: 10px;
+}
+
+.menutoggle
+{
+    left: 60px;
+}

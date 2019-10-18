@@ -1,0 +1,38 @@
+.form_section {
+
+    padding:40px 30px 40px 30px;;
+    height: auto;
+    width: 510px;
+    border:4px solid #445e83;
+    border-radius: 5px;
+    background: #fff;
+    border-radius: 0px;
+    margin: 20 auto;
+}
+
+.backimg {
+    display: inline-block;
+    width: 100%;
+}
+
+.form-group .fa.fa-user-o, .fa.fa-lock, .fa-envelope, .fa-mobile {
+    font-size: 18px;
+    margin-top:12px;
+    position: absolute;
+    margin-left: 11px;
+    color: #ffa902;
+}
+
+.form-group .fa.fa-lock {
+   
+     font-size: 22px; }
+
+     input.form-control
+{
+    padding:12px 0px 13px 38px;
+    border-radius: 0px;
+}
+
+.form-signin {
+    margin-top: 15px;
+}

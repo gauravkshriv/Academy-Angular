@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<header>
+  <meta charset="utf-8">
+  <title>Real Tech Versity</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type='text/javascript' src='https://tattoocultr.com/wp-content/themes/Tattoo/js/compiled.min.js'></script>
+  <link href="https://mdbootstrap.com/previews/docs/latest/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://mdbootstrap.com/previews/docs/latest/css/mdb.min.css" rel="stylesheet">
+<body>
+  <app-root>
+    <div class="app-loading">
+      <div class="logo"></div>
+      <svg class="spinner" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="5"  style="stroke:#0da4dd"/>
+      </svg>
+    </div>
+  </app-root>
+
+
+  <script type="text/javascript">
+    $(window).on('load',function(){
+  
+      var delayMs = 3000; // delay in milliseconds
+      setTimeout(function(){
+          $('#modallogout').modal('show');
+      }, delayMs);
+  
+  });
+  </script>
+<script>
+  window.oncontextmenu = function () {
+      console.log("Right Click Disabled");
+      return false;
+  }
+</script>
+
+    <script>
+$(document).ready(function(){
+$('#menuToggle').on('click', function(event) {
+		$('body').toggleClass('open');
+  });
+  
+  $(".right-panel").click(function() {
+    // $(".open aside.left-panel").hide()
+    $('aside.left-panel').addClass('hidenav')
+     });
+
+});
+</script>
+<script>
+  $('#myTab a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+})
+</script>
+<script>//this code handles the F5/Ctrl+F5/Ctrl+R
+// var ctrlKeyDown = false;
+
+// $(document).ready(function(){    
+//     $(document).on("keydown", keydown);
+//     $(document).on("keyup", keyup);
+// });
+
+// function keydown(e) { 
+
+//     if ((e.which || e.keyCode) == 116 || ((e.which || e.keyCode) == 82 && ctrlKeyDown)) {
+//         // Pressing F5 or Ctrl+R
+//         e.preventDefault();
+//     } else if ((e.which || e.keyCode) == 17) {
+//         // Pressing  only Ctrl
+//         ctrlKeyDown = true;
+//     }
+// };
+</script>
+
+
+<script>
+
+</script>
+
+</body>
+
+</html>
+

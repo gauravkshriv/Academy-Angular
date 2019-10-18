@@ -1,0 +1,28 @@
+<div class="rme_dashboard">
+        <header id="header" class="header">  
+                <app-topbar></app-topbar>
+             </header>
+           
+    <div class="dashboard_wrapper">         
+        <aside id="left-panel" class="left-panel">  
+            <app-sidebar></app-sidebar>
+        </aside>
+        <div id="right-panel" class="right-panel">
+      <div class="dashboard_section">  
+      <!--   <div *ngIf="showprofile"> 
+    <div class="red">Please complete your Personal profile and Kyc Detail on our Portal <a class="btn btn-primary" (click)="SendLoadData()">Click Here</a></div> 
+</div>
+
+<div *ngIf="showkyc"> 
+  <div class="red">Please complete your KYC Detail on our Portal <a class="btn_kyc" (click)="SendDataKyc()">Click Here</a></div> 
+</div> -->
+            <div class="content mt-3">
+               <router-outlet></router-outlet>
+                <app-footer></app-footer>
+               
+            </div>
+        </div>
+      </div>
+    </div>
+
+      </div>  

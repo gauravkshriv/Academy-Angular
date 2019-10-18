@@ -1,0 +1,54 @@
+.mcqdetail_page{background-color: #fff;}
+
+.form_section ul li {
+    line-height: 35px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.form_section ul{
+   margin-top: 20px;
+}
+
+.form_section h4 {
+    padding: 10px;
+    background-color: #2a3f54;
+    color: #fff;
+}
+.form_section
+{
+    padding-top: 100px;
+}
+
+.mcq_detail{background-color: #fff;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 10px;
+}
+.buton_start {
+    padding-bottom: 80px;
+    display: inline-block;
+}
+
+.form_section ul li:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    padding-right: 10px;
+    font-size: 12px;
+    padding-left: 5px;
+    color: #2a3f54;
+}
+
+.form_section ul li:nth-child(even)
+{
+    background-color: #f5f0f0;
+    padding: 5px;
+}
+
+.form_section ul li:nth-child(odd)
+{
+    background-color: #c7c7c7;
+    padding: 5px;
+}

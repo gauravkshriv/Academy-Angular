@@ -1,0 +1,19 @@
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    background-color: #1c2935;
+    color: rgba(255,255,255,.6);
+}
+
+/*footer.page-footer {
+    position: absolute;
+    width: 78.5%;
+    bottom: inherit;
+}*/
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+    footer.page-footer {
+        width: 100%;
+    }
+
+}
+

@@ -1,0 +1,45 @@
+.app-loading .spinner
+{
+    top: -7px;
+}
+.prof-photo
+{
+    min-height: 250px;
+}
+
+.loc-market p
+{
+    margin: 0px 5px 10px 5px;
+}
+
+.prof-photo{
+    min-height: 250px;
+}
+.prof-photo {
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    width: 253px;
+    max-height: 250px;
+    overflow: hidden;
+}
+.profile_img {
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008cbae8;
+    height: 320px;
+}

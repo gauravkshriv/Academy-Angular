@@ -1,0 +1,87 @@
+
+.side-nav a{
+    height: 45px;
+    font-size:15px;
+}
+
+.img-circle.profile_img {
+   
+    background: #fff;
+  
+    z-index: 1000;
+    position: inherit;
+    margin-top:0px;
+    border: 1px solid rgba(52, 73, 94, 0.44);
+    padding: 4px;
+}
+
+h4.navbar-brand.Welcome_text
+{
+    margin:-10px -10px -10px -27px;
+    padding: 0px;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.profile_sec.navbar-brand {
+    background-color: #1c293561;
+    padding: 10px;
+}
+
+.profile_info p{color:#fff; font-family: arial; margin: 0px;
+    font-size: 19px;}
+
+.profile_pic {
+    float: left;
+}
+
+.profile_info {
+    
+    padding-left: 15px;
+    float: left;
+}
+
+.profile_sec {
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar{box-shadow: none;}
+
+.profile_info h4{color: #fff;}
+
+.navbar-brand.Welcome_text {
+    border: none;
+    font-family: arial;
+}
+
+.basic_chain{width:100%;}
+.navbar .navbar-nav li.menu-item-has-children .sub-menu
+{
+    background:#2a3f54;
+}
+
+.navbar .navbar-nav li.flow_sub:hover {
+    background-color: #1f3144;
+    padding: 0px 10px;
+    color: #fff !important;
+    transition: 1s;
+}
+
+.navbar .navbar-nav li.flow:hover {
+    background-color: #1f3144;
+    padding: 0px 10px;
+    color: #fff !important;
+    transition: 1s;
+    box-shadow:0px 0px 5px 3px #394b5f;
+}
+
+.flow_drop{
+    border-bottom: 1px solid #1f3144
+}
+
+i.menu-icon.fa{font-size:18px;}
+
+.navbar .navbar-nav li.flow{border-bottom:1px solid #1f3144;}
+

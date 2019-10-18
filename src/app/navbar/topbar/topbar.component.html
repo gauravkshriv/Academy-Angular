@@ -1,0 +1,86 @@
+
+<div class="header-menu">
+ 
+     <div class="row">
+    <div class="col-sm-9 col-md-9 col-lg-9">
+         <div class="login-sec">
+        <a id="menuToggle" class="menutoggle right_tick"><i class="fa fa-bars"></i></a>
+        <a  routerLink="/dashboard" id="homebar" class="menutoggle"><i class="fa fa-home"></i></a>
+    </div>
+       
+    </div>
+
+    <div class="col-sm-3 col-md-3 col-lg-3">
+        <div class="user-area dropdown float-right">
+
+    <div class="dropdown_menu">
+        <span data-toggle="dropdown" class="dropdown-toggle dropicon" aria-haspopup="true"><i class="fa fa-th"></i></span>
+        <div> 
+            <div class="dropdown-menu portaldrop">
+                <div class="row">
+                    <div class="col-4">
+                    <a href="http://account.rmehub.in/" target="_blank"><img src="assets/images/rmicon3.png"/>Account</a>
+                </div>
+                <div class="col-4">
+                        <a href="https://community.rmehub.in/" target="_blank"><img src="assets/images/rmicon.png"/>Community</a>
+                    </div>
+                <div class="col-4">
+                    <a href="https://www.rmehub.in/" target="_blank"><img src="assets/images/rmicon4.png"/>RMEHUB</a>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-4">
+                    <a href="https://dapp.rmehub.in/" target="_blank"><img src="assets/images/dapp.png"/>Dapp</a>
+                </div>
+                <div class="col-4">
+                    <a href="https://retail.rmehub.in/" target="_blank"><img src="assets/images/retail.png"/>Retail</a>
+                </div>
+                <div class="col-4">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div> 
+      
+   
+<!--Dropdown primary-->
+<div class="dropdown_menu">
+<div class="academy_drop" *ngIf="show==true; else notShow">
+    <!--Trigger-->
+    <a class="btn btn-primary" type="button"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" *ngIf="showprofile; else showfullname">
+        <i class="fa fa-user-circle"></i> {{username}} <i class="fa fa-angle-down"></i>
+    </a>
+    <ng-template #showfullname>
+        <a class="btn btn-primary" type="button"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-user-circle"></i> {{fullname}} <i class="fa fa-angle-down"></i></a>
+          </ng-template>
+    <!--Menu-->
+    <div class="dropdown-menu dropdown-primary">
+       <a class="dropdown-item" routerLink="/user/profile">MY PROFILE</a>
+        <a class="dropdown-item" routerLink="/user/change-password">ACCOUNT SETTING</a>
+        <a class="dropdown-item" (click)="alertswal()">HELP</a>
+        <a class="dropdown-item" (click)="Logout()">LOG OUT</a>       
+    </div>
+</div>
+
+    <ng-template #notShow>
+     <a href="http://account.rmehub.in/?referral=academy"><button class="btn btn-primary">LOG IN / SIGNUP</button></a>
+     
+      </ng-template>
+</div>
+
+  </div>
+
+      
+
+    </div>
+</div>
+    <div *ngIf="showprofile"> 
+    <div class="red">Please complete your Personal profile and Kyc Detail on our Portal <a class="btn_kyc" (click)="SendLoadData()">Click Here</a></div> 
+</div>
+
+<div *ngIf="showkyc"> 
+  <div class="red">Please complete your KYC Detail on our Portal <a class="btn_kyc" (click)="SendDataKyc()">Click Here</a></div> 
+</div>
+
+</div> 

@@ -1,0 +1,456 @@
+[
+  {
+    "id": "qone",
+    "question": "What does P2P stands for?",
+    "options": [
+      {
+        
+        "a": "password to password"
+      },
+      {
+        
+        "b": " peer to peer"
+      },
+      {
+        
+        "c": "product to product"
+      },
+      { 
+       
+        "d": "Private key to public key"
+      }
+    ]
+  },
+  {
+    "id": "qtwo",
+    "question": "What is a node?",
+    "options": [
+      {
+        "a": "A type of cryptocurrency"
+      },
+      {
+        "b": "A computer on a blockchain network"
+      },
+      {
+        "c": "A blockchain"
+      },
+      {
+        "d": "An exchange"
+      }
+    ]
+  },
+  {
+    "id": "qthree",
+    "question": "Which is NOT a part of asymmetric encryption?",
+    "options": [
+      {
+        "a": "Public key"
+      },
+      {
+        "b": "Passphrase"
+      },
+      {
+        "c": "Private Key"
+      },
+      {
+        "d": "Mining"
+      }
+    ]
+  },
+  {
+    "id": "qfour",
+    "question": "What is a blockchain?",
+    "options": [
+      {
+        "a": "A distributed ledger on a peer to peer network"
+      },
+      {
+        "b": "A type of cryptocurrency"
+      },
+      {
+        "c": "An exchange"
+      },
+      {
+        "d": "A centralized ledger"
+      }
+    ]
+  },
+  {
+    "id": "qfive",
+    "question": "What is a dApp?",
+    "options": [
+      {
+        "a": "A type of Cryptocurrency"
+      },
+      {
+        "b": " A condiment"
+      },
+      {
+        "c": " A type of blockchain"
+      },
+      {
+        "d": "A decentralized application"
+      }
+    ]
+  },
+  {
+    "id": "qsix",
+    "question": "What is a genesis block?",
+    "options": [
+      {
+        "a": "The first block of a blockchain"
+      },
+      {
+        "b": "A famous block that hardcoded a hash of the Book of Genesis onto the blockchain"
+      },
+      {
+        "c": "The first block after each block halving"
+      },
+      {
+        "d": "The 2nd transaction of a blockchain"
+      }
+    ]
+  },
+  {
+    "id": "qseven",
+    "question": "What is a private key?",
+    "options": [
+      {
+        "a": "A key on your key chain"
+      },
+      {
+        "b": "A key given to the public"
+      },
+      {
+        "c": "A key NOT to be given to the public"
+      },
+      {
+        "d": " A key that opens a secret door"
+      }
+    ]
+  },
+  {
+    "id": "qeight",
+    "question": "What is a smart contract?",
+    "options": [
+      {
+        "a": "An exchange Agreement"
+      },
+      {
+        "b": "A programmable contract placed on the blockchain"
+      },
+      {
+        "c": "A node"
+      },
+      {
+        "d": "A transaction"
+      }
+    ]
+  },
+  {
+    "id": "qnine",
+    "question": "When a record is on a blockchain, who can access it?",
+    "options": [
+      {
+        "a": "Multiple people simultaneously."
+      },
+      {
+        "b": "One person at a time"
+      },
+      {
+        "c": "Only the people involved in the transaction."
+      },
+      {
+        "d": "Anybody across the web platform"
+      }
+    ]
+  },
+  {
+    "id": "qten",
+    "question": "Once records are submitted on a blockchain, can they be altered?",
+    "options": [
+      {
+        "a": "Yes – the parties can go back in and alter them at any time."
+      },
+      {
+        "b": "Yes – but only within a certain time frame."
+      },
+      {
+        "c": "No – they cannot be altered."
+      },
+      {
+        "d": "No – they cannot be altered"
+      }
+    ]
+  },
+  {
+    "id": "qeleven",
+    "question": "Is it possible to program a blockchain to record transactions automatically?",
+    "options": [
+      {
+        "a": "Yes"
+      },
+      {
+        "b": "No"
+      },
+      {
+        "c": "Both of the above"
+      },
+      {
+        "d": "None of the above"
+      }
+    ]
+  },
+  {
+    "id": "qtwelve",
+    "question": "Are blockchains fully public?",
+    "options": [
+      {
+        "a": "Yes"
+      },
+      {
+        "b": "No"
+      },
+      {
+        "c": "It depends"
+      },
+      {
+        "d": "None of the above"
+      }
+    ]
+  },
+  {
+    "id": "qthirteen",
+    "question": "are the main value creation points in RME using smart contracts",
+    "options": [
+      {
+        "a": "Broker & Broking houses, builders & developers"
+      },
+      {
+        "b": "Land owners & land pooling groups, investors, end user ,IT Team, realTechvarsity"
+      },
+      {
+        "c": "Mentors & initiator pool, social community pool and Due Diligence & Mortgage Pool"
+      },
+      {
+        "d": "All of the above"
+      }
+    ]
+  },
+  {
+    "id": "qfourteen",
+    "question": "Which one is not a part of value creation on RME Ecosystem?",
+    "options": [
+      {
+        "a": "Deployment of brokers"
+      },
+      {
+        "b": " Deployment of builders"
+      },
+      {
+        "c": "peer to peer community pool"
+      },
+      {
+        "d": "Removing the mediators"
+      }
+    ]
+  },
+  {
+    "id": "qfifteen",
+    "question": "Which one is not the part of Bounty earning module of RME ecosystem?",
+    "options": [
+      {
+        "a": "By performing participation in joining for social pool"
+      },
+      {
+        "b": "By deploying the real estate profession."
+      },
+      {
+        "c": "By preparation for BLOCKCHAIN certification course."
+      },
+      {
+        "d": "By getting a valid certificate of BLOCKCHAIN from RealTechVarsity"
+      }
+    ]
+  },
+  {
+    "id": "qsixteen",
+    "question": "Who is accountable for the bounty distribution in the pools of brokers and broking houses ?",
+    "options": [
+      {
+        "a": "Freelance broker."
+      },
+      {
+        "b": "Broking house"
+      },
+      {
+        "c": "Initiator"
+      },
+      {
+        "d": "Project head"
+      }
+    ]
+  },
+  {
+    "id": "qseventeen",
+    "question": "Which process is controlling the land procurement for particular real estate project within the RME Ecosystem",
+    "options": [
+      {
+        "a": "Due diligence"
+      },
+      {
+        "b": "Need analysis"
+      },
+      {
+        "c": "Database management"
+      },
+      {
+        "d": "Research & development"
+      }
+    ]
+  },
+  {
+    "id": "qeighteen",
+    "question": "James “A freelance broker” , wants to deploy his broking profession on RME Ecosystem.how can he get started?",
+    "options": [
+      {
+        "a": "By investing in RME utility tokens"
+      },
+      {
+        "b": "By obtaining the basic BLOCKCHAIN certificate for brokers."
+      },
+      {
+        "c": "By creating his own broking workflow structure"
+      },
+      {
+        "d": "By only participating in RME’s social community pool."
+      }
+    ]
+  },
+  {
+    "id": "qnineteen",
+    "question": "How RME Ecosystem controls the quality and on time delivery of real estate projects",
+    "options": [
+      {
+        "a": "By offering some extra bounties which is beyond the ecosystem"
+      },
+      {
+        "b": "By smart contract based rewards & penalties."
+      },
+      {
+        "c": "By bounding an offline agreement with stakeholders"
+      },
+      {
+        "d": "By transactions of real-estate project workflow and progress"
+      }
+    ]
+  },
+  {
+    "id": "qtwenty",
+    "question": "Which factor is making “RME Ecosystem” trusted and transparent hml",
+    "options": [
+      {
+        "a": "Smart contracts and sub contracts"
+      },
+      {
+        "b": "An offline agreement with all the stake-holders and beneficiaries."
+      },
+      {
+        "c": "A B2B deal between the RME and third parties entities."
+      },
+      {
+        "d": "A decentralised transactions of any activity performed within RME Ecosystem"
+      }
+    ]
+  },
+  {
+    "id": "qtwentyone",
+    "question": "What is the term for when a Blockchain splits?",
+    "options": [
+      {
+        "a": "A fork"
+      },
+      {
+        "b": "A merger"
+      },
+      {
+        "c": "A sidechain"
+      },
+      {
+        "d": "A division"
+      }
+    ]
+  },
+  {
+    "id": "qtwentytwo",
+    "question": "What  is Proof of Stake?",
+    "options": [
+      {
+        "a": "A certificate needed to use the Blockchain"
+      },
+      {
+        "b": "A password needed to access an exchange"
+      },
+      {
+        "c": " How private keys are made"
+      },
+      {
+        "d": "A transaction and block verification protocol"
+      }
+    ]
+  },
+  {
+    "id": "qtwentythree",
+    "question": "What is a miner?",
+    "options": [
+      {
+        "a": "A type of blockchain"
+      },
+      {
+        "b": "An algorithm that predicts the next part of the chain"
+      },
+      {
+        "c": "A person doing calculations to verify a transaction"
+      },
+      {
+        "d": "Computer that validates and process blockchain transactions"
+      }
+    ]
+  },
+  {
+    "id": "qtwentyfour",
+    "question": "Blockchain stores information in _______________?",
+    "options": [
+      {
+        "a": "Blocks"
+      },
+      {
+        "b": "Cloud"
+      },
+      {
+        "c": "smart contract"
+      },
+      {
+        "d": "None of the above"
+      }
+    ]
+  },
+  {
+    "id": "qtwentyfive",
+    "question": "What is process of proof of work?",
+    "options": [
+      {
+        "a": "Computer that solves the puzzle on network"
+      },
+      {
+        "b": "peer to peer interaction with the data"
+      },
+      {
+        "c": "Computer that Solve the puzzle and share with all computer on network "
+      },
+      {
+        "d": "the way it tracks data."
+      }
+    ]
+  }
+]
